@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    background: #13789a;
+    font-family: sans-serif;
+}
+#greet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+#clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 5rem;
+}
+#curr_date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+#line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 5rem;
+    margin-top: -1rem;
+}
