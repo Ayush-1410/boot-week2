@@ -7,12 +7,11 @@ function showTime(){
     let month = date.getMonth(); // 0-11
     let year = date.getFullYear(); // yyyy
 
-    if(hr == 0){
-        hr = 12;
+    if(hr <= 12){
         period = "AM"
         greeting = 'Morning'
     }
-    else if(hr > 12){
+    else{
         hr = hr - 12;
         period = "PM";
         greeting = 'Evening'
