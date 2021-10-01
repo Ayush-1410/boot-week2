@@ -7,10 +7,9 @@ const song = {
     featuring: 'Biggie Smalls'
 };
 
-const markup = `
-	<div class="song">
+const markup =
+    `<div class="song">
     	<p> ${song.name} - ${song.artist} (Featuring ${song.featuring}) </p>
-    </div>
- `;
+    </div>`;
 
 document.body.innerHTML = markup;
