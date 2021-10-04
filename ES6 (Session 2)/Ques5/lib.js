@@ -16,7 +16,7 @@ let area_cylinder = function(pi,radius,height) {
     console.log('Area of the cylinder is ' + c + ' square unit');
 }
 
-module.exports = {
+export {
     area_rec,
     area_cir,
     area_cylinder
